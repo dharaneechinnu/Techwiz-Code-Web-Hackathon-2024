@@ -1,0 +1,30 @@
+.gal {
+    padding-top: 50px;
+   width: 100%;
+   height: 100%;
+  }
+  
+  #gallery {
+    text-align: center;
+  }
+  
+  .gallery-heading {
+    padding-bottom: 20px;
+  }
+  
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    width: 100%;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 80%;
+
+  }
+  

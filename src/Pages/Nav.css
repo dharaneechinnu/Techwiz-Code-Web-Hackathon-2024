@@ -1,0 +1,27 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #420c59;
+    width: 100%;
+   color: white;
+}
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+   
+}
+.nav li{
+ display: flex;
+ padding-top: 30px;
+ padding-left: 200px;
+ justify-content: end;
+ float: right;
+}
+.nav img{
+    padding-left: 10px;
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+}
