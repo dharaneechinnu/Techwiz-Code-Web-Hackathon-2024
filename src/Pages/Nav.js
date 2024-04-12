@@ -9,7 +9,7 @@ const Nav = () => {
       <ul className="nav-links">
         <li><a href="#home1">Home</a></li>
         <li><a href="#ab">About</a></li>
-        <li><a href="#pas">Past Events</a></li>
+        <li><a href="#pas">Events</a></li>
         <li><a href="#g">MetaVerse</a></li>
       </ul>
     </div>
