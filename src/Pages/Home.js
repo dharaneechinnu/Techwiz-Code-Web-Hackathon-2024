@@ -20,7 +20,7 @@ const Home = () => {
     
   <>
   
-  <div className="container">
+  <div className="container" id='home1'>
   <div>
      {
      isLoading ?(
@@ -31,10 +31,12 @@ const Home = () => {
         <Nav/>
       <div className="bg-img " id='home'>
 
-        <img src={logo} alt="" srcset=""  />
+        <img src={logo} alt="" srcset="" className='logo'  />
         <h1>Welcome to TechWiz Club!</h1>
         <p>Join us for exciting events and activities!</p>
+     
     </div>
+    <div className="ab" id='ab'></div>
     </>
      )
     

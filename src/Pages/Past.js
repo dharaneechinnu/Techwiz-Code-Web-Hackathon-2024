@@ -8,12 +8,13 @@ const Past = () => {
   const events = [
     { image: event1, date: "11th March 2023" },
     { image: event2, date: "11th March 2023" },
-    // Add more events as needed
+ 
   ];
 
   return (
-    <div className="containers">
-      <div className="past" id='past'>
+    <>
+    <div className="containers" id='past'>
+      <div className="past">
         <h2>Past Events</h2>
         <section id="past-events" className="event-box">
           {events.map((event, index) => (
@@ -22,10 +23,14 @@ const Past = () => {
               <p>{event.date}</p>
             </div>
           ))}
+        
         </section>
+        <div className="g" id='g'></div>
       </div>
       <Gallery />
     </div>
+   
+    </>
   );
 };
 

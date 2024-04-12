@@ -1,22 +1,19 @@
-import React from 'react'
-import logo from '../Pages/img/club.png'
-import '../Pages/Nav.css'
+import React from 'react';
+import logo from '../Pages/img/club.png';
+import '../Pages/Nav.css';
+
 const Nav = () => {
   return (
-    <>
-      <div className="nav">
-     
-      <ul>
-      <img src={logo} alt=""  />
-        <li>Home</li>
-        <li>About</li>
-        <li>Past Events</li>
-        <li>gallery</li>
-       
+    <div className="nav">
+      <img className="logo" src={logo} alt="TechWiz Club Logo" />
+      <ul className="nav-links">
+        <li><a href="#home1">Home</a></li>
+        <li><a href="#ab">About</a></li>
+        <li><a href="#pas">Past Events</a></li>
+        <li><a href="#g">Gallery</a></li>
       </ul>
-      </div>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Nav
+export default Nav;
