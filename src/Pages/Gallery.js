@@ -7,7 +7,7 @@ import g3 from '../Pages/img/g3.jpeg'
 const Gallery = () => {
   return (
     <>
-    <div className="gal">
+    <div className="gal" id='gal'>
     <section id="gallery">
         <h2 className="gallery-heading">Gallery</h2>
         <div className="gallery-container">

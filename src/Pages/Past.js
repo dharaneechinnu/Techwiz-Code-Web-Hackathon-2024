@@ -13,7 +13,7 @@ const Past = () => {
 
   return (
     <div className="containers">
-      <div className="past">
+      <div className="past" id='past'>
         <h2>Past Events</h2>
         <section id="past-events" className="event-box">
           {events.map((event, index) => (

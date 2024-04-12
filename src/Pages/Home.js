@@ -29,8 +29,8 @@ const Home = () => {
       </div>
      ):(<>
         <Nav/>
-      <div className="bg-img">
-        
+      <div className="bg-img " id='home'>
+
         <img src={logo} alt="" srcset=""  />
         <h1>Welcome to TechWiz Club!</h1>
         <p>Join us for exciting events and activities!</p>
